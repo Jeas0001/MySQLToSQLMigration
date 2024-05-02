@@ -14,7 +14,9 @@ foreach (var entity in mEntities)
     bool flag = false;
     foreach (var entity2 in sEntities)
     {
-        if (entity.FirstName != entity2.FirstName && entity.LastName != entity2.LastName && entity.ID != entity2.ID) { flag = true; }
+        if (entity.FirstName != entity2.FirstName && entity.LastName != entity2.LastName) { flag = true; }
+        if (entity.FirstName == entity2.FirstName && entity.LastName != entity2.LastName) { flag = true; }
+        if (entity.FirstName != entity2.FirstName && entity.LastName == entity2.LastName) { flag = true; }
     }
     if (flag)
     {
