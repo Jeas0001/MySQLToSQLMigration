@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySQLToSQLMigration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed6a569d4fd0545941d0d99bdbeed2a81dd3b08b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e29e50d16abcc292bbe07cee230e724542c333")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySQLToSQLMigration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySQLToSQLMigration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
